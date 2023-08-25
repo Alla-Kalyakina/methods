@@ -1,5 +1,11 @@
 /* eslint-disable no-unused-vars */
 import Character from '../classes/character';
+import { Bowman } from '../classes/bowman';
+import { Daemon } from '../classes/daemon';
+import { Magician } from '../classes/magician';
+import { Swordsman } from '../classes/swordsman';
+import { Undead } from '../classes/undead';
+import { Zombie } from '../classes/zombie';
 
 test('classCharacter', () => {
   const character = new Character('testName', 'Bowman');

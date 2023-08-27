@@ -16,7 +16,7 @@ test('levelUpTest1', () => {
 test('levelUpTest2', () => {
   expect(() => {
     const character = new Magician('testName', 'Magician');
-    character.health = 0;
+    character.level = 0;
     character.levelUp();
   }).toThrow('levelUp error');
 });
